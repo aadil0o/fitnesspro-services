@@ -15,7 +15,7 @@ export default function Contact() {
         </p>
 
         <p className="text-gray-400 mb-3">
-          Serving KSA & Dubai
+          Serving Saudia Arabia
         </p>
 
         <p className="text-gray-400 mb-8">

@@ -10,7 +10,7 @@ export default function Footer() {
 
         <p className="text-gray-500 mt-4">
           Professional Gym Equipment Maintenance
-          & Repair Services Across KSA & Dubai.
+          & Repair Services Across Saudia Arabia.
         </p>
 
         <p className="text-gray-600 mt-6">

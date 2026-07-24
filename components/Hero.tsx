@@ -5,16 +5,23 @@ import { motion } from "framer-motion";
 export default function Hero() {
   return (
     <section className="min-h-screen flex items-center justify-center text-center px-6 relative overflow-hidden">
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=2000')",
-        }}
-      />
+      {/* Background Video */}
+      <div className="absolute inset-0 overflow-hidden">
+        <video
+          autoPlay
+          muted
+          loop
+          playsInline
+          className="w-full h-full object-cover"
+        >
+          <source src="/images/hero.mp4" type="video/mp4" />
+        </video>
+      </div>
 
-      <div className="absolute inset-0 bg-black/75" />
+      {/* Dark Overlay */}
+      <div className="absolute inset-0 bg-black/70" />
 
+      {/* Content */}
       <div className="relative z-10">
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
@@ -32,9 +39,8 @@ export default function Hero() {
           transition={{ delay: 0.5 }}
           className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto"
         >
-          Professional Maintenance & Repair Services
-          for Commercial & Home Gym Equipment
-          across KSA & Dubai.
+          Professional Maintenance & Repair Services for Commercial & Home Gym
+          Equipment across Saudi Arabia.
         </motion.p>
 
         <div className="mt-10 flex gap-4 justify-center">

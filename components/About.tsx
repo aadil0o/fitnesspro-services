@@ -7,8 +7,7 @@ export default function About() {
       <div
         className="absolute inset-0 bg-cover bg-center opacity-10"
         style={{
-          backgroundImage:
-            "url('https://images.unsplash.com/photo-1571902943202-507ec2618e8f?q=80&w=2000')",
+          backgroundImage: "url('/images/gallery1.jpg')",
         }}
       />
 
@@ -23,7 +22,7 @@ export default function About() {
               FitnessPro Services is a trusted provider of
               professional gym equipment maintenance,
               repair, installation, and technical support
-              services across Saudi Arabia and Dubai.
+              services across Saudi Arabia.
             </p>
 
             <p className="text-gray-400 mt-6 text-lg leading-8">
